@@ -1,0 +1,105 @@
+*{
+    width:100%;
+}
+
+header{
+    padding-top:1px;
+    background-image:url("DSC_0019.JPG");
+    background-size:cover;
+    height:600px;
+    opacity:0.6;
+}
+
+header p{
+    margin-top:0px;
+    padding-top:60px;
+    font-size: 60px;
+    color:black;
+    text-align:center;
+}
+
+.profile{
+    padding-top:150px;
+    padding-bottom:150px;
+    text-align:center; 
+    height:300px;  
+}
+
+.name{
+    font-size:30px;
+}
+
+.skill{
+    padding-top:1px;
+    height:500px;
+    background-color:gray;
+    text-align:center;
+}
+
+.sl-title {
+    font-size:35px;
+    font-weight:border;
+    padding-top:30px;
+
+}
+
+.skill-c{
+    width:50%;
+    float:left;
+}
+
+.skill h4{
+    font-size:25px; 
+}
+
+.sl-txt{
+    margin: 0 auto;
+    width:65%;
+}
+
+.learn{
+    padding-top:1px;
+    height:600px;
+    background-color:khaki;
+    text-align:center
+}
+
+
+.learn-c{
+    width:25%;
+    float:left;
+}
+
+
+
+.learn h4{
+    font-size:25px;
+}
+
+.contact{
+    padding-top:1px;
+    height:200px;
+    background-color:pink;
+    text-align:center;
+}
+
+.contact p{
+    font-size:20px;
+    font-weight:bold;
+}
+
+.contact a{
+    text-decoration:none;
+}
+
+.fas{
+    font-size:50px;
+}
+
+footer{
+    padding-top:1px;
+    height:50px;
+    text-align:center;
+    color:white;
+    background-color:purple;
+}
