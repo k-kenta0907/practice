@@ -6,7 +6,6 @@ header{
     padding-top:1px;
     background-image:url("../images/back.jpg");
     background-size:cover;
-    background-color:rgb(23, 32, 151);
     height:600px;
     opacity:0.4;
 }
@@ -17,6 +16,7 @@ header p{
     font-size: 60px;
     color:black;
     text-align:center;
+    opacity:1;
 }
 
 .profile{
@@ -30,22 +30,25 @@ header p{
     font-size:30px;
 }
 
-.skill{
+.skill-back{
     padding-top:1px;
     height:500px;
-    background-color:rgb(4, 234, 250);
-    text-align:center;
+    background-image:url("../images/skillback.jpg");
+    background-color:rgba(255,255,255,0.5);
+    background-blend-mode:lighten;
 }
 
+.skill{
+    text-align: center;
+}
 .sl-title {
     font-size:35px;
     font-weight:border;
     padding-top:30px;
-
 }
 
 .skill-c{
-    width:50%;
+    width:33%;
     float:left;
 }
 
@@ -65,13 +68,10 @@ header p{
     text-align:center
 }
 
-
 .learn-c{
     width:25%;
     float:left;
 }
-
-
 
 .learn h4{
     font-size:25px;
@@ -79,14 +79,14 @@ header p{
 
 .contact{
     padding-top:1px;
-    height:200px;
+    height:120px;
     background-color:#ffdbed;
     text-align:center;
 }
 
-.contact p{
+.contact-title{
     font-size:20px;
-    font-weight:bold;
+    font-weight:bold
 }
 
 .contact a{
@@ -94,7 +94,7 @@ header p{
 }
 
 .fas{
-    font-size:50px;
+    font-size:20px;
 }
 
 footer{
